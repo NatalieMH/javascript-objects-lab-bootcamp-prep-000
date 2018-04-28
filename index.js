@@ -2,7 +2,7 @@ var key
 var value
 var recipes = {key: value}
 function updateObjectWithKeyAndValue(object,key,value) {
-  if(key in object){
+  if(let key in object){
     object[key] = value
     return object}
 }

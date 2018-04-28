@@ -4,7 +4,6 @@ var recipes = {key: value}
 function updateObjectWithKeyAndValue(object,key,value) {
   for(let key in object)
     object[key] = value
-    object[prop] = 1
     return object
 }
 function destructivelyUpdateObjectWithKeyAndValue(object,key,value) {
